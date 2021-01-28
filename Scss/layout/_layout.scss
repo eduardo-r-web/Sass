@@ -1,0 +1,8 @@
+section{
+    @include max-width;
+    background-color: aqua;
+}
+
+body{
+    @include max-width;
+}

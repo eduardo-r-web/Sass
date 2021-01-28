@@ -1,0 +1,39 @@
+/*------------*
+    $MIXINS
+*-------------*/
+.table {
+  border-collapse: collapse;
+}
+
+.celdas {
+  border: 1px solid black;
+  padding: 0.5em;
+}
+
+/*------------------*
+    $BUTTONS
+*--------------*/
+.btn {
+  display: inline-block;
+  color: white;
+  background-color: #ea83ee;
+  line-height: 2.5;
+  border-radius: 3px;
+  font-size: 24px;
+}
+.btn__icon {
+  font-size: 0.6em;
+}
+.btn--info {
+  background-color: #42b8dd;
+}
+
+section {
+  max-width: 800px;
+  background-color: aqua;
+}
+
+body {
+  max-width: 800px;
+}
+/*# sourceMappingURL=styles.css.map */
