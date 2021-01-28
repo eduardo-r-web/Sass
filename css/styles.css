@@ -30,10 +30,29 @@
 
 section {
   max-width: 800px;
-  background-color: aqua;
+  margin: 0 auto;
+  background-color: 91, 183, 91;
+  padding: 24px;
+}
+@media only screen and (min-width: 800px) {
+  section {
+    background-color: red;
+  }
 }
 
-body {
-  max-width: 800px;
+.max-width--huge {
+  max-width: 1024px;
+  margin: 0 auto;
 }
-/*# sourceMappingURL=styles.css.map */
+
+header {
+  background-color: #ea83ee;
+}
+
+p {
+  font-size: 16px;
+}
+
+small {
+  font-size: 12px;
+}

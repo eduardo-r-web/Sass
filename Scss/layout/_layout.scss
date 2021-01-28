@@ -1,8 +1,24 @@
 section{
     @include max-width;
-    background-color: aqua;
+    background-color: $color-success;
+    @include respond-to(800px){
+        background-color: red;
+    }
+    padding: $padding;
 }
 
-body{
-    @include max-width;
+.max-width--huge{
+    @include max-width(1024px);
+}
+
+header{
+    background-color: $color-brand;
+}
+
+p{
+    font-size: map-get($fs, normal);
+}
+  
+small{
+    font-size: map-get($fs, x-small);
 }
